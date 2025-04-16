@@ -1,0 +1,48 @@
+.main{
+    width: 300px;
+    height: 100%;
+}
+
+.main__title{
+
+}
+.rps-extended{
+    background-color: rgb(248, 211, 211);
+    border-radius: 25px;
+    padding: 10px;
+}
+li{
+list-style: none;
+}
+
+.rps-extended__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+
+.rps-extended__button{
+width: 70px;
+height: 30px;
+border: 1px;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+}
+
+.rps-extended__button:hover{
+    background-color: rgb(237, 108, 108);
+    transition: all 1000ms ease; 
+}
+.rps-ComputerC{
+    width: 70px;
+height: 30px;
+border: 1px ;
+border-radius: 10px;
+margin-left: 90px;
+}
+.rps-ComputerC:hover{
+    background-color: rgb(255, 0, 144);
+    transition: all 1000ms ease; 
+    margin-left: 40px;
+}
